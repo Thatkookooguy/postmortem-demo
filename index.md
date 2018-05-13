@@ -53,6 +53,3 @@ Borgmon detected high level of HTTP 500s and paged on-call.
 ### Supporting information{% include explain.html details="Useful information, links, logs, screenshots, graphs, IRC logs, IM logs, etc." %}
 
 - [Monitoring dashboard](http://monitor/shakespeare?end_time=20151021T160000&duration=7200)
-
-
-##### goodbye!
