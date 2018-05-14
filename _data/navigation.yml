@@ -6,3 +6,6 @@
       url: /postmortem/001
     - title: Google Compute Engine Incident
       url: /postmortem/002
+- title: About Us
+  url: /about
+  icon: fa-info-circle
