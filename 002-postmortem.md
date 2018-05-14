@@ -10,8 +10,6 @@ layout: postmortem
 permalink: /postmortem/002
 ---
 
-https://gerrit.googlesource.com/plugins/owners/+doc/master/README.md
-
 ### TL;DR{% include explain.html details="<strong>Too Long; Didn't Read</strong> - Very short description of the incident" %}
 
 This page provides status information on the services that are part of Google Cloud Platform. Check back here to view the current status of the services listed below. If you are experiencing an issue not listed here, please contact Support. Learn more about what's posted on the dashboard in this FAQ. For additional information on these services, please visit cloud.google.com.
