@@ -9,3 +9,5 @@ permalink: /about
 # About Us
 
 ## Just a normal markdown file yo
+
+this is nice `var hello = "world"` :-)
