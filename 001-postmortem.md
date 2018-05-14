@@ -6,7 +6,7 @@ incident: 001
 authors:
  - Neil Kalman
  - Or Tichon
-layout: postmortem
+layout: default
 permalink: /postmortem/001
 ---
 
