@@ -10,15 +10,15 @@ layout: postmortem
 permalink: /postmortem/001
 ---
 
-### TL;DR{% include explain.html details="<strong>Too Long; Didn't Read</strong> - Very short description of the incident" %}
+### TL;DR
 
 Shakespeare Search down for 66 minutes during period of very high interest in Shakespeare due to discovery of a new sonnet.
 
-### Impact{% include explain.html details="Impact is the effect on users, revenue, etc." %}
+### Impact
 
 Estimated 1.21B queries lost, no revenue impact.
 
-### Root Causes {% include explain.html details="An explanation of the circumstances in which this incident happened. It’s often helpful to use a technique such as the 5 Whys [Ohn88] to understand the contributing factors." %}
+### Root Causes
 
 Cascading failure due to combination of exceptionally high load and a resource leak when searches failed due to terms not being in the Shakespeare corpus. The newly discovered sonnet used a word that had never before appeared in one of Shakespeare’s works, which happened to be the term users searched for. Under normal circumstances, the rate of task failures due to resource leaks is low enough to be unnoticed.
 
@@ -38,9 +38,7 @@ Borgmon detected high level of HTTP 500s and paged on-call.
 
 {% include 3-box.html %}
 
-### Timeline{% include explain.html details="A “screenplay” of the incident; use the incident timeline from the Incident Management document to start filling in the postmortem’s timeline, then supplement with other relevant entries." %}
-
-{% include date.html day="2015-10-21" zone="UTC" location="Tel-Aviv, Israel" %}
+### Timeline
 
 | time        | Description     |
 | ------------- | ------------- |
