@@ -36,7 +36,7 @@ Borgmon detected high level of HTTP 500s and paged on-call.
 
 ### Lessons Learned
 
-{% include 3-box.html %}
+nope.
 
 ### Timeline
 
@@ -49,6 +49,6 @@ Borgmon detected high level of HTTP 500s and paged on-call.
 | 14:57 | All traffic to Shakespeare search is failing: see [analytics](http://kibibit.io/) |
 {: .timeline }
 
-### Supporting information{% include explain.html details="Useful information, links, logs, screenshots, graphs, IRC logs, IM logs, etc." %}
+### Supporting information
 
 - [Monitoring dashboard](http://monitor/shakespeare?end_time=20151021T160000&duration=7200)
