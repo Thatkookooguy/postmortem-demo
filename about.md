@@ -11,3 +11,6 @@ permalink: /about
 ## Just a normal markdown file yo
 
 this is nice `var hello = "world"` :-)
+
+- list 1
+- list item 2
