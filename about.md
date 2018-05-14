@@ -8,10 +8,10 @@ permalink: /about
 
 # About Us
 
-## Just a normal markdown file yo
+<span class="kb-logo">kibibit</span> is an open source team of software developers, trying to make the world easier piece by piece.
 
-this is nice `var hello = "world"` :-)
+you’re more than welcome to contribute!
 
-- list 1
-- list item 2
-- asdsa
+## About this project
+
+This is a Jekyll theme for GitHub Pages. It's the more "formal" theme we have for important documents (happy theme: kibibit/colorful-theme)
