@@ -37,11 +37,9 @@ Borgmon detected high level of HTTP 500s and paged on-call.
 
 ### Lessons Learned
 
-{% include 3-box.html %}
+nope.
 
 ### Timeline
-
-{% include date.html day="2016-04-11 18:25" zone="US/Pacific" %}
 
 | time        | Description     |
 | ------------- | ------------- |
@@ -56,10 +54,8 @@ Google engineers are currently working to resolve this issue. We will post a fur
 Current data suggests that all Cloud VPN traffic in this region is affected.
 
 For everyone who is affected, we apologize for any inconvenience you may be experiencing. We will provide an update by 19:30 US/Pacific with current details. |
-{: .timeline }
+{: .timeline 
 
-{% include date.html day="2016-04-11 19:27" zone="US/Pacific" %}
-
-### Supporting information{% include explain.html details="Useful information, links, logs, screenshots, graphs, IRC logs, IM logs, etc." %}
+### Supporting information
 
 - [Monitoring dashboard](http://monitor/shakespeare?end_time=20151021T160000&duration=7200)
