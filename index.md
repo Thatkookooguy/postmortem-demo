@@ -22,3 +22,5 @@ Basically, there are **3 page layouts** at the moment:
 ----
 
 created by Neil Kalman thatkookooguy@kibibit.io
+
+<span class="kb-logo"><a href="http://kibibit.io">kibibit</a></span>
