@@ -1,11 +1,15 @@
 - title: Postmortems
   url: /postmortem
   icon: fa-flask
+  id: postmortems
   sublinks:
     - title: Shakespeare Sonnet++ Postmortem
       url: /postmortem/001
+      id: 1
     - title: Google Compute Engine Incident
       url: /postmortem/002
+      id: 2
 - title: About Us
   url: /about
   icon: fa-info-circle
+  id: about-us
