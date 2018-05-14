@@ -1,7 +1,7 @@
 ---
 project: achievibit
 title: kibibit's Document Explorer
-layout: homepage
+layout: default
 ---
 
 # kibibit's Document Explorer - Jekyll theme
