@@ -18,3 +18,5 @@ Basically, there are **3 page layouts** at the moment:
 - #### postmortem
   meant to be used to write postmortem posts.
   TODO: need to document variables needed for the page
+
+created by Neil Kalman <thatkookooguy@kibibit.io>
