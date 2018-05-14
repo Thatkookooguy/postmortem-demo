@@ -1,6 +1,6 @@
 ---
 title: All Postmortems
-layout: homepage
+layout: default
 permalink: /postmortem
 ---
 
