@@ -6,7 +6,7 @@ incident: 002
 authors:
  - Neil Kalman
  - Or Tichon
-layout: postmortem
+layout: default
 id: 2
 permalink: /postmortem/002
 ---
