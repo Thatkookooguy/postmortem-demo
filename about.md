@@ -3,6 +3,7 @@ title: About Us
 authors:
  - Neil Kalman
 layout: default
+id: about-us
 permalink: /about
 ---
 
