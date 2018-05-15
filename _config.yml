@@ -1,2 +1,3 @@
-remote_theme: Kibibit/colorful-theme
+remote_theme: Kibibit/bulma-theme
 name: kibibit doc explorer
+mainColor: hsl(48, 100%, 67%)
