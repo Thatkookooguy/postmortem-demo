@@ -4,7 +4,7 @@ title: Shakespeare Sonnet++ Postmortem
 date: 31/31/31
 incident: 001
 authors:
- - Neil Isaiah Kalman
+ - Neil Kalman
 layout: default
 permalink: /postmortem/001
 ---
