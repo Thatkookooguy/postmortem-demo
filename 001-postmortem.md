@@ -5,7 +5,6 @@ date: 31/31/31
 incident: 001
 authors:
  - Neil Kalman
- - Or Tichon
 layout: default
 permalink: /postmortem/001
 ---
