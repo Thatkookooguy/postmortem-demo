@@ -1,2 +1,3 @@
 remote_theme: Kibibit/bulma-theme
 name: kibibit doc explorer
+mainColor: hsl(275, 100%, 33%)
