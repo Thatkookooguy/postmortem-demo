@@ -1,4 +1,5 @@
 importScripts('localforage.min.js');
+
 (function() {
 
   // Update 'version' if you need to refresh the cache
