@@ -60,7 +60,7 @@ importScripts('localforage.min.js');
 //     if (request.headers.get('Accept').indexOf('text/html') !== -1) {
       event.respondWith(
         Promise.resolve()
-        .then(() => request && request.url ? request.url.indexOf('/bulmaswatch/') >= 0 : false)
+        .then(() => request && request.url ? request.url.indexOf('/bulmaswatch/') >= 0 || request.url.indexOf('kb-style.css') >= 0 : false)
         .then((shouldChange) => shouldChange ? localforage.getItem('theme').then((theme) => createNewThemeRequest(theme, request)) : request)
         .then((newRequest) => fetch(newRequest))
       );
@@ -73,7 +73,7 @@ importScripts('localforage.min.js');
 function createNewThemeRequest(theme, request) {
   if (theme === 'kb-dark-theme') {
     
-    let newUrl = request.url.replace('bulmaswatch/default/', 'bulmaswatch/superhero/');
+    let newUrl = request.url.replace('bulmaswatch/default/', 'bulmaswatch/superhero/').replace('kb-style.css', 'kb-dark-style.css');
 
     let darkThemeRequest = new Request(newUrl, {
       method: request.method
