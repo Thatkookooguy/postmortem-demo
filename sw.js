@@ -57,7 +57,7 @@ importScripts('localforage.min.js');
     }
 
     // For HTML requests, try the network first, fall back to the cache, finally the offline page
-    if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+//     if (request.headers.get('Accept').indexOf('text/html') !== -1) {
       event.respondWith(
         Promise.resolve()
         .then(() => request && request.url ? request.url.indexOf('/bulmaswatch/') >= 0 : false)
@@ -65,7 +65,7 @@ importScripts('localforage.min.js');
         .then((newRequest) => fetch(request))
       );
       return;
-    }
+//     }
   });
 
 })();
