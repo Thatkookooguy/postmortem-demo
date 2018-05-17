@@ -9,6 +9,9 @@
     - title: Google Compute Engine Incident
       url: /postmortem/002
       id: 2
+    - title: Testing code snippets
+      url: /postmortem/003
+      id: 3
 - title: About Us
   url: /about
   icon: fa-info-circle
