@@ -79,7 +79,6 @@ function createNewThemeRequest(theme, request) {
       method: request.method,
       headers: request.headers,
       mode: 'cors',
-      credentials: request.credentials,
       redirect: 'manual'
     });
 
