@@ -76,8 +76,7 @@ function createNewThemeRequest(theme, request) {
     let newUrl = request.url.replace('bulmaswatch/default/', 'bulmaswatch/superhero/');
 
     let darkThemeRequest = new Request(newUrl, {
-      method: request.method,
-      redirect: 'manual'
+      method: request.method
     });
 
     return darkThemeRequest;
