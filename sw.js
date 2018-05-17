@@ -72,8 +72,10 @@ importScripts('localforage.min.js');
 
 function createNewThemeRequest(theme, request) {
   if (theme === 'kb-dark-theme') {
+    
+    let newUrl = request.url.replace('bulmaswatch/default/', 'bulmaswatch/superhero/');
 
-    let darkThemeRequest = new Request(request.url.replace('bulmaswatch/default/', 'bulmaswatch/superhero/'), {
+    let darkThemeRequest = new Request(newUrl, {
       method: request.method,
       headers: request.headers,
       mode: 'same-origin',
