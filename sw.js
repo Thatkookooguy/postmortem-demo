@@ -78,7 +78,7 @@ function createNewThemeRequest(theme, request) {
     let darkThemeRequest = new Request(newUrl, {
       method: request.method,
       headers: request.headers,
-      mode: 'navigate',
+      mode: 'cors',
       credentials: request.credentials,
       redirect: 'manual'
     });
