@@ -62,7 +62,7 @@ importScripts('localforage.min.js');
         Promise.resolve()
         .then(() => request && request.url ? request.url.indexOf('/bulmaswatch/') >= 0 : false)
         .then((shouldChange) => shouldChange ? localforage.getItem('theme').then((theme) => createNewThemeRequest(theme, request)) : request)
-        .then((newRequest) => fetch(request))
+        .then((newRequest) => fetch(newRequest))
       );
       return;
 //     }
