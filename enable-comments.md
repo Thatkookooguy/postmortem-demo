@@ -38,3 +38,4 @@ if you want anonymous users to be able to see the comments, change the rules in 
   }
 }
 ```
+If you want to keep the comments only for logged in users, leave the `.read` field with the value `"auth != null"`.
