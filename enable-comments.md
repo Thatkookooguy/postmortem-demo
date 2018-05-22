@@ -23,11 +23,15 @@ fb_storageBucket: <firebase_data>
 fb_messagingSenderId: <firebase_data>
 ```
 
+#### in you posts
+
 then, in a specific post, you need a post id, and a boolean called `allow_comments` to be set to true (need to implement)
 ```yml
 id: <post_id>
 allow_comments: true
 ```
+
+#### in you firebase database rules
 
 if you want anonymous users to be able to see the comments, change the rules in your firebase database to allow read for unauthenticated users:
 ```json
@@ -39,3 +43,7 @@ if you want anonymous users to be able to see the comments, change the rules in 
 }
 ```
 If you want to keep the comments only for logged in users, leave the `.read` field with the value `"auth != null"`.
+
+### allow different providers
+
+Later, I'll add a variable to the `site` `yml` to allow different oauth providers (other than github)
