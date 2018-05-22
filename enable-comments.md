@@ -8,6 +8,7 @@ layout: default
 permalink: /enable-comments
 ---
 
+
 ### How to use comments with this theme?
 
 kibibit's `bulma-theme` supports comments using google's firebase. In order to enable post comments, you need the following variables:
