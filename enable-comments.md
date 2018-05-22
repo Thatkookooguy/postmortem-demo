@@ -45,3 +45,7 @@ If you want to keep the comments only for logged in users, leave the `.read` fie
 ### allow different providers
 
 Later, I'll add a variable to the `site` `yml` to allow different oauth providers (other than github)
+
+### likes
+
+you can also enable post likes with the variable `enable_likes` in your `_config.yml`
