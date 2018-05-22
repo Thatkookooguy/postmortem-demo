@@ -5,6 +5,7 @@ layout: default
 permalink: /enable-comments
 ---
 
+
 ### How to use comments with this theme?
 
 (comments will not be printed when a user tries to print a post)
