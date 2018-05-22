@@ -2,8 +2,6 @@
 title: Enable comments
 date: 30/30/30
 id: 100
-authors:
- - Neil Isaiah Kalman
 layout: default
 permalink: /enable-comments
 ---
