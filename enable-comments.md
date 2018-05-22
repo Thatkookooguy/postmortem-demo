@@ -28,7 +28,7 @@ id: <post_id>
 allow_comments: true
 ```
 
-#### in you firebase database rules
+#### in you firebase database rules (optional)
 
 if you want anonymous users to be able to see the comments, change the rules in your firebase database to allow read for unauthenticated users:
 ```json
