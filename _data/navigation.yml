@@ -16,3 +16,7 @@
   url: /about
   icon: fa-info-circle
   id: about-us
+- title: Enable Comments
+  url: /enable-comments
+  icon: fa-comments
+  id: enable-comments
