@@ -1,6 +1,5 @@
 ---
 title: Enable comments
-date: 30/30/30
 id: 100
 layout: default
 permalink: /enable-comments
