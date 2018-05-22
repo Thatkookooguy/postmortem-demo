@@ -10,6 +10,7 @@ permalink: /enable-comments
 kibibit's `bulma-theme` supports comments using google's firebase. In order to enable post comments, you need the following variables:
 
 ##### in your `_config.yml`
+
 ```yml
 name: <your_site_name>
 fb_apiKey: <firebase_data>
