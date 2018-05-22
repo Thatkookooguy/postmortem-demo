@@ -1,4 +1,9 @@
 remote_theme: Kibibit/bulma-theme
 name: kibibit doc explorer
 mainColor: hsl(275, 100%, 33%)
-fbc-comments-firebase: https://kibibit-post-comments.firebaseio.com
+fb_apiKey: AIzaSyB0PQfBjjSoYbjQz_JSOwXU0YvAu057F5Q
+fb_authDomain: kibibit-post-comments.firebaseapp.com
+fb_databaseURL: https://kibibit-post-comments.firebaseio.com
+fb_projectId: kibibit-post-comments
+fb_storageBucket: kibibit-post-comments.appspot.com
+fb_messagingSenderId: 585085512877
