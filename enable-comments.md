@@ -38,4 +38,3 @@ if you want anonymous users to be able to see the comments, change the rules in 
   }
 }
 ```
-
